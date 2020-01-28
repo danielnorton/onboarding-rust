@@ -23,3 +23,11 @@ fn test_week1_exercise1_003() {
     let t1: Vec<i64> = vec![];
     assert_eq!(t1, parity(&v1).clone());
 }
+
+#[test]
+fn test_week1_exercise1_prompt() {
+
+    let v1: Vec<i64> = vec![3,1,2,4];
+    let t1: Vec<i64> = vec![2,4,3,1];
+    assert_eq!(t1, parity(&v1).clone());
+}
